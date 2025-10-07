@@ -1,6 +1,6 @@
 //englishorfrench
 
-/* function lang(sentence) {
+/* function Lang(sentence) {
     let t = 0;
     let s = 0;
     for(let i =0; i < sentence.length; i++){
@@ -21,14 +21,14 @@ lang(sentence); */
 //occupiedspaces
 
 function Lang(y,t) {
-   
+   let occupied = 0
  
     for(let i =0; i < y.length; i++){
         // console.log(y[i], t[i])
-        if(y[i] === "."){
-            console.log("found")
+        if(y[i] === "C" &&  t[i] === "C"){
+            occupied++;
         }
     }
+console.log(occupied);
 }
-
 Lang('CC..C' ,'.CC..')
