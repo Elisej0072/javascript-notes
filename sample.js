@@ -16,7 +16,7 @@ for(let publisher in publishers){
          "afterbegin",
          `<div className= "publisher-container`>
     <h2 className="publisher">${publisher}</h2>
-    <h3 className="amount">${publishers[publisher}]}h3>
+    <h3 className="amount">${publishers[publisher}]} </h3>
     </div>);} 
 
 videogames.filter((game) => if(game.ratings.metacritic > 95).forEach((game)
