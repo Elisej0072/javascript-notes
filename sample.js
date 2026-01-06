@@ -14,8 +14,8 @@ for(let publisher in publishers){
     let publishDiv = document.querySelector(".publishers");
     publishDiv.insertAdjacentHTML (
          "afterbegin",
-         `<div className= "publisher-container`>
-    <h2 className="publisher">${publisher}</h2>
+         `<div className = "publisher-container>`
+    <h2 className="publisher"> ${publisher}</h2>
     <h3 className="amount">${publishers[publisher}]} </h3>
     </div>);} 
 
