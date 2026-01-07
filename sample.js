@@ -17,7 +17,7 @@ videoGames.forEach((game) => {
 //          "afterbegin",
 //          `<div className = "publisher-container>`
 //     <h2 className="publisher"> ${publisher}</h2>
-//     <h3 className="amount">${publishers[publisher}]} </h3>
+//     <h3 className="amount">${publishers[publisher]} </h3>
 //     </div>);} 
 
 // videogames.filter((game) => if(game.ratings.metacritic > 95).forEach((game)
@@ -28,5 +28,10 @@ videoGames.forEach((game) => {
 
 console.log(companies)
 for(let company in companies){
-  let o
+  let publishDiv = document.querySelector(".companies");
+  publishDiv.insertAdjacentHTML ("afterbegin");
+  `<div className = "company-container>`
+  <h2 className="company">${company}</h2>
+  <h3 className="amount">${companies[company]} </h3>
+ 
 }
